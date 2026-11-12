@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "捡果",
+    "slug": "jianguo-app",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#52C41A",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.jianguo.mobile",
+      "infoPlist": {
+        "NSCameraUsageDescription": "用于拍摄鲜花动态、完善个人头像与真人认证",
+        "NSMicrophoneUsageDescription": "用于在聊天和语音房中发送语音消息及上麦交流",
+        "NSPhotoLibraryUsageDescription": "用于上传相册中的鲜花图片发布动态",
+        "NSLocationWhenInUseUsageDescription": "用于展示同城附近的鲜花种植达人与邂逅交友"
+      }
+    },
+    "android": {
+      "package": "com.jianguo.mobile",
+      "versionCode": 200,
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.INTERNET"
+      ]
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
