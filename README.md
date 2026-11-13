@@ -94,9 +94,9 @@ chmod +x mvnw
 ./mvnw spring-boot:run
 ```
 
-- 服务默认监听端口：`http://localhost:8080`
-- **Swagger 交互式 API 文档**：`http://localhost:8080/swagger-ui/index.html`
-- **H2 数据库控制台**：`http://localhost:8080/h2-console`（JDBC URL: `jdbc:h2:mem:jianguodb`，User: `sa`，Password 为空）
+- 服务默认监听端口：`http://localhost:18080`
+- **Swagger 交互式 API 文档**：`http://localhost:18080/swagger-ui/index.html`
+- **H2 数据库控制台**：`http://localhost:18080/h2-console`（JDBC URL: `jdbc:h2:mem:jianguodb`，User: `sa`，Password 为空）
 
 #### 预置测试账号：
 - **客户端普通用户**：

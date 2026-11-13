@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// 默认指向本地 Spring Boot 后端，可根据网络环境配置为局域网 IP 如 http://192.168.1.100:8080
-export const API_BASE_URL = 'http://localhost:8080/api/v1';
+// 默认指向本地 Spring Boot 后端 (端口 18080，避免与系统及常用应用端口冲突)
+export const API_BASE_URL = 'http://localhost:18080/api/v1';
 
 export const apiClient = axios.create({
   baseURL: API_BASE_URL,
